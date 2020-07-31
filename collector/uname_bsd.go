@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// +build darwin freebsd openbsd
+// +build darwin freebsd openbsd solaris
 // +build !nouname
 
 package collector

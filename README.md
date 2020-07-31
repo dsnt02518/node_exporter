@@ -38,7 +38,7 @@ edac | Exposes error detection and correction statistics. | Linux
 entropy | Exposes available entropy. | Linux
 exec | Exposes execution statistics. | Dragonfly, FreeBSD
 filefd | Exposes file descriptor statistics from `/proc/sys/fs/file-nr`. | Linux
-filesystem | Exposes filesystem statistics, such as disk space used. | Darwin, Dragonfly, FreeBSD, Linux, OpenBSD
+filesystem | Exposes filesystem statistics, such as disk space used. | Darwin, Dragonfly, FreeBSD, Linux, OpenBSD, Solaris
 hwmon | Expose hardware monitoring and sensor data from `/sys/class/hwmon/`. | Linux
 infiniband | Exposes network statistics specific to InfiniBand and Intel OmniPath configurations. | Linux
 ipvs | Exposes IPVS status from `/proc/net/ip_vs` and stats from `/proc/net/ip_vs_stats`. | Linux
@@ -61,7 +61,7 @@ thermal\_zone | Exposes thermal zone & cooling device statistics from `/sys/clas
 time | Exposes the current system time. | _any_
 timex | Exposes selected adjtimex(2) system call stats. | Linux
 udp_queues | Exposes UDP total lengths of the rx_queue and tx_queue from `/proc/net/udp` and `/proc/net/udp6`. | Linux
-uname | Exposes system information as provided by the uname system call. | Darwin, FreeBSD, Linux, OpenBSD
+uname | Exposes system information as provided by the uname system call. | Darwin, FreeBSD, Linux, OpenBSD, Solaris
 vmstat | Exposes statistics from `/proc/vmstat`. | Linux
 xfs | Exposes XFS runtime statistics. | Linux (kernel 4.4+)
 zfs | Exposes [ZFS](http://open-zfs.org/) performance statistics. | [Linux](http://zfsonlinux.org/), Solaris
